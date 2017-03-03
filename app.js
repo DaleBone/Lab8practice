@@ -13,7 +13,7 @@ var app = express();
 app.engine('.hbs', hbs({
   extname: '.hbs',
     defaultLayout: 'layout',
-    partialsDor: path.join(__dirname, 'views/partials')
+    partialsDir: path.join(__dirname, 'views/partials')
 }));
 
 // view engine setup
